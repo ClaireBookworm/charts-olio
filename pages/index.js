@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { GalleryCard } from "../components/card";
 import styles from '../styles/Home.module.css'
+import day1 from "../public/day1-vowels-claire.png";
 
 export default function Home() {
   return (
@@ -12,22 +14,23 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        {/* <GalleryCard title="Day 1"/> */}
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          30 Day Chart Challenge
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          You can find my code at {' '}  
+          <code className={styles.code}>clairebookworm/30daychartchallenge</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/ClaireBookworm/30daychartchallenge/blob/main/day1-vowels-claire.png" className={styles.card}>
+            <h2>Day 1: Part to Whole</h2>
+            <Image alt="vowels in the English language" src={day1}/>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
@@ -48,7 +51,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
