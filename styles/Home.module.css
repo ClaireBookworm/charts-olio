@@ -12,6 +12,19 @@
   align-items: center;
 }
 
+.date{
+  font-size: 8rem;
+  font-weight: bold;
+  background-color: red;
+  padding: 30px 20px;
+  font-family: "Press Start 2P", "Krungthrep", "Space Grotesk";
+  margin: 5px;
+}
+.date:hover{
+  background-color: blue;
+  position: relative;
+  top: -10px;
+}
 
 .footer {
   display: flex;
@@ -43,7 +56,17 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 12rem;
+  font-family: "DM Sans", "Press Start 2P", "Krungthrep", "Space Grotesk";
+  transition: 5s;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.title:hover{
+  /* color: blue; */
+  /* position: relative; */
+  /* right: 100px; */
+  transition: 5s;
 }
 
 .title,
@@ -71,7 +94,9 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  /* max-width: 800px; */
+  max-width: 80%;
+  background-color: black 80%;
 }
 
 .card {

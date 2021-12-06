@@ -25,12 +25,28 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a className={styles.date}>1</a>
+          <a className={styles.date}>2</a>
+          <a className={styles.date}>3</a>
+          <a className={styles.date}>4</a>
+          <a className={styles.date}>5</a>
+          <a className={styles.date}>6</a>
+          <a className={styles.date}>7</a>
+          <a className={styles.date}>8</a>
+          <a className={styles.date}>9</a>
+          <a className={styles.date}>10</a>
+          <a className={styles.date}>11</a>
+          <a className={styles.date}>12</a>
+          <a className={styles.date}>13</a>
+        </div>
+{/* 
+        <div className={styles.grid}>
           <a href="https://github.com/ClaireBookworm/30daychartchallenge/blob/main/day1-vowels-claire.png" className={styles.card}>
             <h2>Day 1: Part to Whole</h2>
             <Image alt="vowels in the English language" src={day1}/>
           </a>
 
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
@@ -41,7 +57,7 @@ export default function Home() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
           </span>
         </a>
       </footer>
